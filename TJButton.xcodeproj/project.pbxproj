@@ -212,7 +212,7 @@
 				TargetAttributes = {
 					A543C9C91F06337F002C5FC5 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = KXQ7ZU9PU4;
+						DevelopmentTeam = 95TG5XR73G;
 						ProvisioningStyle = Automatic;
 					};
 					A543C9E21F063380002C5FC5 = {
@@ -433,7 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KXQ7ZU9PU4;
+				DEVELOPMENT_TEAM = 95TG5XR73G;
 				INFOPLIST_FILE = TJButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tangjie.TJButton;
@@ -445,7 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KXQ7ZU9PU4;
+				DEVELOPMENT_TEAM = 95TG5XR73G;
 				INFOPLIST_FILE = TJButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tangjie.TJButton;
@@ -522,6 +522,7 @@
 				A543C9F91F063380002C5FC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A543C9FA1F063380002C5FC5 /* Build configuration list for PBXNativeTarget "TJButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +531,7 @@
 				A543C9FC1F063380002C5FC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A543C9FD1F063380002C5FC5 /* Build configuration list for PBXNativeTarget "TJButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +540,7 @@
 				A543C9FF1F063380002C5FC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
