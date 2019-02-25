@@ -232,7 +232,9 @@ mv "$export_ipa_path/image.png" ${project_dir}
 
 git add .
 git commit -m"更新下载二维码"
-git push origin $branch
+array=(${branch//./ })
+length=${#array[*]}
+git push origin ${array[length-1]}
 echo $branch
 
 exit 0
