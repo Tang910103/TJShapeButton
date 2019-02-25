@@ -225,16 +225,4 @@ showInfo "导出文件路径：$export_path"
 echo "\033[36;1m使用AutoPackageScript打包总用时: ${SECONDS}s \033[0m"
 echo "\n\n"
 
-#    fir上传不一定能成功，可以使用插件
-fir p "$export_ipa_path/$ipa_name.ipa" -T 8062cc5e837fe15ccf97622eea40b654 -Q
-mv "$export_ipa_path/fir-$scheme_name.png" "$export_ipa_path/image.png"
-mv "$export_ipa_path/image.png" ${project_dir}
-
-git add .
-git commit -m"更新下载二维码"
-array=(${branch//./ })
-length=${#array[*]}
-git push origin ${array[length-1]}
-echo $branch
-
 exit 0
